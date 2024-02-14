@@ -1,0 +1,121 @@
+html {
+    text-size-adjust: 100%;
+    font-feature-settings: normal;
+    font-family: Söhne, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-variation-settings: normal;
+    line-height: 1.5;
+    tab-size: 4;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    text-align: center;
+    width: 95%; /* Make the image fill its container's width */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove default inline display */
+    padding-bottom: 3px;
+    position: relative;
+    left: 3%;
+}
+
+.cornerImage {
+    text-align: center;
+    width: 80%; /* Make the image fill its container's width */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove default inline display */
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-bottom: 3px;
+    position: relative;
+    left: 3%;
+}
+
+h2 {
+    color: rgb(140, 140, 140);
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: rgb(140, 140, 140);
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-column {
+    flex: 8%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.right-column {
+    flex: 92%;
+    background-color: #212121;
+}
+
+.left-row1 {
+    flex: 10%;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+}
+
+.left-row2 {
+    flex: 90%;
+    background-color: #191919;
+    padding-top: 100%;
+}
+
+.name {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: "Impact", fantasy;
+    padding: 0;
+    margin: 0;
+}
+
+.workTitle {
+    text-align: center;
+    color: rgb(125, 125, 125);
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.linkBox {
+    border-top: solid;
+    border-width: 1px;
+    border-color: rgb(100, 100, 100);
+    text-align: center;
+    padding: 15px;
+}
+
+.linkBoxBottom {
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(100, 100, 100);
+    text-align: center;
+    padding: 15px;
+}
+
+.linkBox:hover {
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+
+.linkBoxBottom:hover {
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
