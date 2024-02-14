@@ -1,3 +1,12 @@
+span {
+    min-width: 5px;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.85em;
+    letter-spacing: 1.5px;
+    color: #FFF;
+}
+
 html {
     text-size-adjust: 100%;
     font-feature-settings: normal;
@@ -11,7 +20,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #212121;
+    position: relative;
 }
+
+body, html {
+    height: 100%;
+ }
 
 img {
     text-align: center;
@@ -119,3 +134,9 @@ a {
     background-color: rgb(100, 100, 100);
     color: white;
 }
+
+.text {
+    padding-left: 15px;
+    overflow: hidden;
+    height: auto;
+  }
